@@ -1,10 +1,87 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Level 1 Click Jack</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="http://www.darkskiesawareness.org/img/wwf-logo.gif"/>
+    </head>
 
-</body>
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Raleway:300);
+        @import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+        body {
+            background-image: url(https://c402277.ssl.cf1.rackcdn.com/photos/907/images/hero_full/sumatran-tiger-hero_92514619.jpg?1345581518);
+            background-attachment: fixed;
+            background-position: right;
+            background-size: cover;
+            padding: 100px;
+            background-color: rgba(25, 25, 25, .5);
+            font-family: Raleway, "Helvetica-Neue", Helvetica, sans-serif;
+            color: white;
+            font-weight: 300;
+            text-align: right;
+        }
+        #header {
+            background: black;
+            padding: 35px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            opacity: .5;
+        }
+        p {
+            display: none;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        button {
+            color: black;
+            float: right;
+            margin: 15px;
+            font-size: 150%;
+        }
+        img {
+            width: 90px;
+            position: absolute;
+            top: 0px;
+            left: 140px;
+        }
+
+        iframe {
+            height: 175px;
+            opacity: .5;
+            position: absolute;
+            top: 165px;
+            right: 120px;
+        }
+    </style>
+
+    <body>
+        <main class="container-fluid">
+            <div class="row">
+                <div id="header" class="col-md-12"><p>TEST</p></div>
+                <img src="http://www.darkskiesawareness.org/img/wwf-logo.gif" alt="logo"/>
+                <div>
+                    <h1 class="col-md-12">PLEASE HELP SAVE<br>THE BENGAL TIGERS</h1>
+                    <h2 class="col-md-12">Right now, there are more tigers in captivity<br>than there are left in the world.</h2>
+                    <button type="button" class="btn btn-success">PLEASE DONATE</button>
+                </div>
+            </div>
+            <iframe src="http://clickjacking-challenges.r7.io/level/2?name=kevinly7&location=http://r7.io/e/ZsGNBc1Ypb"
+                    frameborder="0" scrolling="no"></iframe>
+        </main>
+    </body>
+
+    <script>
+        window.onbeforeunload = function(e) {
+            return 'Are you sure you want to leave this page?  You will lose any unsaved data.';
+        };
+    </script>
 </html>
